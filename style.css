@@ -121,6 +121,16 @@ input {
     padding: 0.5vh 1.5vh;
 }
 
+input:focus {
+    outline: none;
+    border: 1px solid blue;
+    box-shadow: 1px 1px 3px rgb(173, 172, 172);
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
 .form-submit {
     font-size: var(--main-font-size);
     font-family: sans-serif;
