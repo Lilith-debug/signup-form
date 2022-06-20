@@ -49,6 +49,7 @@ form {
     font-family: sans-serif;
     padding-left: var(--main-padding-left);
     border: 1px solid #E5E7EB;
+    box-shadow: 1px 1px 3px rgb(207, 206, 206), 1px 1px 5px rgb(241, 239, 239);
 }
 
 h1 {
@@ -96,7 +97,7 @@ button {
     border: none;
     border-radius: 6px;
     margin: 4vh 0 3vh;
-    box-shadow: 1px 1px 5px gray;
+    box-shadow: 1px 1px 5px rgb(175, 175, 175);
 }
 
 #login {
