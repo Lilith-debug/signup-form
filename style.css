@@ -48,6 +48,7 @@ body {
 form {
     font-family: sans-serif;
     padding-left: var(--main-padding-left);
+    border: 1px solid #E5E7EB;
 }
 
 h1 {
@@ -85,4 +86,25 @@ input {
     font-size: var(--main-font-size);
     font-family: sans-serif;
     padding-left: var(--main-padding-left);
+}
+
+button {
+    font-weight: bold;
+    color: #E5E7EB;
+    background-color: #596D48;
+    padding: 1.5vh 5.5vh;
+    border: none;
+    border-radius: 6px;
+    margin: 4vh 0 3vh;
+    box-shadow: 1px 1px 5px gray;
+}
+
+#login {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#login:link,
+#login:visited {
+    color: #596D48;
 }
