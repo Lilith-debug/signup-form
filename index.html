@@ -51,11 +51,11 @@
                 <div class="form-row">
                     <div class="input-container">
                         <label for="password">PASSWORD</label>
-                        <input type="password" id="password" name="password">
+                        <input type="password" id="password" name="password" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
                     </div>
                     <div class="input-container">
                         <label for="confirm">CONFIRM PASSWORD</label>
-                        <input type="password" id="confirm" name="confirm-password">
+                        <input type="password" id="confirm" name="confirm-password" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
                     </div>
                 </div>
             </form>
