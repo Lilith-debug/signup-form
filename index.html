@@ -4,47 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" link="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Sign up form</title>
 </head>
 <body>
     <div class="container">
         <div class="img-container">
-            <img src="" alt="">
-            <img src="" alt="">
+            <div class="logo-container">
+                <img src="" alt="">
+                <h1 class="logo-title">ODIN</h1>
+            </div>
+            <div class="logo-footer">
+                <p>Photo by <a href="">Halie West</a> on <a href="">Unsplash</a></p>
+            </div>
         </div>
-        <div class="formcontainer">
-            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
-            <p>You <em>know</em> you want to.</p>
+        <div class="form-container">
+            <div class="opening-container">
+                <p>This is not a real online service!
+                    You know you need something <br>like this in your
+                    life to help you realize your deepest dreams.<br>
+                    Sign up <em>now</em> to get started.</p>
+                <p>You <em>know</em> you want to.</p>
+            </div>
             <form action="" method="post">
                 <h1>Let's do this!</h1>
-                <div class="input-container">
-                    <label for="first-name">FIRST NAME</label>
-                    <input type="text" id="first-name" name="first-name">
+                <div class="form-row">
+                    <div class="input-container">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" id="first-name" name="first-name">
+                    </div>
+                    <div class="input-container">
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" id="last-name" name="last-name">
+                    </div>
                 </div>
-                <div class="input-container">
-                    <label for="last-name">LAST NAME</label>
-                    <input type="text" id="last-name" name="last-name">
+                <div class="form-row">
+                    <div class="input-container">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="input-container">
+                        <label for="tel">PHONE NUMBER</label>
+                        <input type="tel" id="tel" name="tel">
+                    </div>
                 </div>
-                <div class="input-container">
-                    <label for="email">EMAIL</label>
-                    <input type="email" id="email" name="email">
-                </div>
-                <div class="input-container">
-                    <label for="tel">PHONE NUMBER</label>
-                    <input type="tel" id="tel" name="tel">
-                </div>
-                <div class="input-container">
-                    <label for="password">PASSWORD</label>
-                    <input type="password" id="password" name="password">
-                </div>
-                <div class="input-container">
-                    <label for="confirm">CONFIRM PASSWORD</label>
-                    <input type="password" id="confirm" name="confirm-password">
+                <div class="form-row">
+                    <div class="input-container">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password" name="password">
+                    </div>
+                    <div class="input-container">
+                        <label for="confirm">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirm" name="confirm-password">
+                    </div>
                 </div>
             </form>
-            <button type="submit">Create Account</button>
-            <p>Already have an account? <a href="">Log in.</a></p>
+            <div class="form-submit">
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <a href="">Log in</a></p>
+            </div>
         </div>
     </div>
 </body>

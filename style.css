@@ -1,0 +1,88 @@
+@font-face {
+    font-family: norse-bold;
+    src: url(Assets/Norse-Bold.otf);
+}
+
+:root {
+    --title-font-weigth: 600;
+    --title-font-size: 16px;
+    --main-font-size: 10px;
+    --main-padding-left: 7vh;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.img-container {
+    flex: 1 0 0%;
+    background:no-repeat url(Assets/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: 100% 100%;
+    width: 30vh;
+    height: 100vh;
+    position: relative;
+    margin: 0;
+}
+
+.form-container {
+    flex: 3 0 0%;
+    width: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.opening-container {
+    font-size: var(--title-font-size);
+    font-weight: var(--title-font-weigth);
+    font-family: sans-serif;
+    padding-left: var(--main-padding-left);
+}
+
+form {
+    font-family: sans-serif;
+    padding-left: var(--main-padding-left);
+}
+
+h1 {
+    font-size: var(--title-font-size);
+    font-weight: var(--title-font-weigth);
+}
+
+.form-row {
+    display: flex;
+    margin: 4vh 0;
+    justify-content: flex-start;
+    gap: 0;
+}
+
+.input-container {
+    flex: 1 1 0%;
+    display: flex;
+    flex-direction: column;
+    font-size: var(--main-font-size);
+    gap: .5vh;
+}
+
+label {
+    letter-spacing: .1rem;
+}
+
+input {
+    width: 45vh;
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
+    padding: 0.5vh 1.5vh;
+}
+
+.form-submit {
+    font-size: var(--main-font-size);
+    font-family: sans-serif;
+    padding-left: var(--main-padding-left);
+}
