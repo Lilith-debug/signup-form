@@ -30,6 +30,44 @@ body {
     margin: 0;
 }
 
+.logo-container {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 15.9vh;
+    background-color: rgba(0, 0, 0, 0.226);
+    height: 15%;
+    width: 100%;
+}
+
+#logo-img {
+  width: 18%;
+  height: 85%;  
+}
+
+#logo-title {
+    color: white;
+    font-family: norse-bold;
+    font-size: 56px;
+    font-weight: 500;
+}
+
+.logo-footer {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-size: 8px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-footer a:link,
+.logo-footer a:visited {
+    color: white;
+}
+
 .form-container {
     flex: 3 0 0%;
     width: 70vh;
@@ -52,7 +90,7 @@ form {
     box-shadow: 1px 1px 3px rgb(207, 206, 206), 1px 1px 5px rgb(241, 239, 239);
 }
 
-h1 {
+form>h1 {
     font-size: var(--title-font-size);
     font-weight: var(--title-font-weigth);
 }
